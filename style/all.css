@@ -52,6 +52,7 @@ body {
     min-width: 1920px;
     width: 100%;
     font: italic normal bold 24px/36px Roboto;
+    overflow-x: hidden;
 }
 .header {
     display: block;
