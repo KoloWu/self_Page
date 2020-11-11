@@ -52,7 +52,6 @@ body {
     min-width: 1920px;
     width: 100%;
     font: italic normal bold 24px/36px Roboto;
-    overflow-x: hidden;
 }
 .header {
     display: block;
@@ -118,4 +117,27 @@ hr{
     color: #891818;
     font-size: 48px;
     vertical-align: sub;
+}
+
+.container .band,.footer{
+    display: block;
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    padding: 64px;
+}
+.container .band >div,.footer >div {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+}
+.container .band >div >span,.footer >div >span {
+    padding: 16px;
+    display: block;
+}
+.container .band .title,.footer .title {
+    font-size: 64px;
+}
+.container .band .contain .img.col-2 {
+    display: flex;
 }
