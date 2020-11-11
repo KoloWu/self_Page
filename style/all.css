@@ -126,18 +126,25 @@ hr{
     color: #ffffff;
     padding: 64px;
 }
-.container .band >div,.footer >div {
+.otherWorks{
+    padding-top: 64px;
+    padding-bottom: 160px;
+}
+.container .band >div,.footer >div,.otherWorks div {
     margin: 0 auto;
     width: 1200px;
     text-align: center;
 }
-.container .band >div >span,.footer >div >span {
+.container .band >div >span,.footer >div >span,.otherWorks >div >span {
     padding: 16px;
     display: block;
 }
-.container .band .title,.footer .title {
+.otherWorks .col-2,.otherWorks .col-3 {
+    margin-top: 40px;
+}
+.container .band .title,.footer .title,.otherWorks .title {
     font-size: 64px;
 }
-.container .band .contain .img.col-2 {
+.col-2,.col-3 {
     display: flex;
 }
